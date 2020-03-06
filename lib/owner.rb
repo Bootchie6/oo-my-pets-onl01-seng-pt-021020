@@ -6,7 +6,7 @@ class Owner
     @species = species
   end
   
-  def says_species(species)
+  def say_species(species)
     puts "I am a #{species}."
   end
   
