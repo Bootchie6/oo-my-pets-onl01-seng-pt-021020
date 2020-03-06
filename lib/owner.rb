@@ -1,7 +1,8 @@
 class Owner
-  attr_reader :name, :species
+  attr_accessor :species
+  attr_reader :name
   
-  def initialize(name, species ='human')
+  def initialize(name, species = 'human')
     @name = name
   end
   
