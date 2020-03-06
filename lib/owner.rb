@@ -26,7 +26,7 @@ class Owner
   end
   
   def cats
-    Cat.all
+    Cat.all.find {|owner| owner == self}
   end
   
 end
